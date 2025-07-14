@@ -1,7 +1,6 @@
 import { ArrowDown, Download, Github, Linkedin, Mail } from 'lucide-react';
 import { Button } from './ui/button';
 import { Card } from './ui/card';
-import adityaProfile from '@/assets/aditya-profile.jpg';
 
 const HeroSection = () => {
   const scrollToSection = (sectionId: string) => {
@@ -67,7 +66,7 @@ const HeroSection = () => {
             <Card className="p-1 bg-gradient-primary shadow-glow">
               <div className="relative">
                 <img
-                  src={adityaProfile}
+                  src="https://i.postimg.cc/XvjdWwyb/Whats-App-Image-2025-07-14-at-11-50-00.jpg"
                   alt="Aditya Pande"
                   className="w-80 h-80 lg:w-96 lg:h-96 object-cover rounded-lg"
                 />
